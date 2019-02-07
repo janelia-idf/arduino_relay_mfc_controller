@@ -1,0 +1,553 @@
+# EESchema Netlist Version 1.1 created  Thu 31 Oct 2013 10:54:10 AM EDT
+(
+ ( /5183F813 SM1210 C1 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5183F885 SM1210 C2 0.1uF
+  ( 1 VAA )
+  ( 2 GND )
+ )
+ ( /5183F820 SM1210 C3 10uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5183F884 SM1210 C4 10uF
+  ( 1 VAA )
+  ( 2 GND )
+ )
+ ( /5183F828 SM1210_POL C5 2.2uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5183F883 SM1210_POL C6 2.2uF
+  ( 1 VAA )
+  ( 2 GND )
+ )
+ ( /5182CE9B SM1210 C7 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52545586 SM1210 C8 10uF
+  ( 1 /VIN )
+  ( 2 GND )
+ )
+ ( /5254497E SM1210 C9 1uF
+  ( 1 N-000105 )
+  ( 2 N-000024 )
+ )
+ ( /5254498A SM1210 C10 1uF
+  ( 1 N-000025 )
+  ( 2 N-000114 )
+ )
+ ( /52544BA0 SM1210 C11 1uF
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /52544BA9 SM1210 C12 1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52544BAD SM1210 C13 1uF
+  ( 1 GND )
+  ( 2 N-000119 )
+ )
+ ( /5187B461 LED0805 D1 LED
+  ( 1 N-000031 )
+  ( 2 GND )
+ )
+ ( /5183D1E4 LED0805 D2 LED
+  ( 1 N-000008 )
+  ( 2 /OUT0 )
+ )
+ ( /5183D1EF LED0805 D3 LED
+  ( 1 N-000117 )
+  ( 2 /OUT1 )
+ )
+ ( /5183D1FE LED0805 D4 LED
+  ( 1 N-000004 )
+  ( 2 /OUT2 )
+ )
+ ( /5183D1FD LED0805 D5 LED
+  ( 1 N-000014 )
+  ( 2 /OUT3 )
+ )
+ ( /5183D21E LED0805 D6 LED
+  ( 1 N-000001 )
+  ( 2 /OUT4 )
+ )
+ ( /5183D21D LED0805 D7 LED
+  ( 1 N-000015 )
+  ( 2 /OUT5 )
+ )
+ ( /5183D21B LED0805 D8 LED
+  ( 1 N-000002 )
+  ( 2 /OUT6 )
+ )
+ ( /5183D21C LED0805 D9 LED
+  ( 1 N-000013 )
+  ( 2 /OUT7 )
+ )
+ ( /52559467 BAT54_SOT23 D10 DIODE
+  ( 1 /OUT0 )
+  ( 2 VAA )
+ )
+ ( /52559510 BAT54_SOT23 D11 DIODE
+  ( 1 /OUT1 )
+  ( 2 VAA )
+ )
+ ( /52559515 BAT54_SOT23 D12 DIODE
+  ( 1 /OUT2 )
+  ( 2 VAA )
+ )
+ ( /5255951A BAT54_SOT23 D13 DIODE
+  ( 1 /OUT3 )
+  ( 2 VAA )
+ )
+ ( /5255951F BAT54_SOT23 D14 DIODE
+  ( 1 /OUT4 )
+  ( 2 VAA )
+ )
+ ( /52559525 BAT54_SOT23 D15 DIODE
+  ( 1 /OUT5 )
+  ( 2 VAA )
+ )
+ ( /52559538 BAT54_SOT23 D16 DIODE
+  ( 1 /OUT6 )
+  ( 2 VAA )
+ )
+ ( /5255953E BAT54_SOT23 D17 DIODE
+  ( 1 /OUT7 )
+  ( 2 VAA )
+ )
+ ( /518406B0 Header_Shrouded_3_Pin K1 3PIN_A0
+  ( 1 +5V )
+  ( 2 /A0 )
+  ( 3 GND )
+ )
+ ( /518406B8 Header_Shrouded_3_Pin K2 3PIN_A1
+  ( 1 +5V )
+  ( 2 /A1 )
+  ( 3 GND )
+ )
+ ( /518406C2 Header_Shrouded_3_Pin K3 3PIN_A2
+  ( 1 +5V )
+  ( 2 /A2 )
+  ( 3 GND )
+ )
+ ( /518406C1 Header_Shrouded_3_Pin K4 3PIN_A3
+  ( 1 +5V )
+  ( 2 /A3 )
+  ( 3 GND )
+ )
+ ( /5272697C Header_Shrouded_3_Pin K5 DISPLAY
+  ( 1 /TX3 )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+ ( /504A5A0E DCJACK_2PIN_HIGHCURRENT P1 +24VDC
+  ( 1 VAA )
+  ( 2 GND )
+ )
+ ( /5182D133 Header_Shrouded_2_Pin P2 RELAY0
+  ( 1 /OUT0 )
+  ( 2 VAA )
+ )
+ ( /5182D235 Header_Shrouded_2_Pin P3 RELAY1
+  ( 1 /OUT1 )
+  ( 2 VAA )
+ )
+ ( /5182D23F Header_Shrouded_2_Pin P4 RELAY2
+  ( 1 /OUT2 )
+  ( 2 VAA )
+ )
+ ( /5182D23E Header_Shrouded_2_Pin P5 RELAY3
+  ( 1 /OUT3 )
+  ( 2 VAA )
+ )
+ ( /5182D24C Header_Shrouded_2_Pin P6 RELAY4
+  ( 1 /OUT4 )
+  ( 2 VAA )
+ )
+ ( /5182D24B Header_Shrouded_2_Pin P7 RELAY5
+  ( 1 /OUT5 )
+  ( 2 VAA )
+ )
+ ( /5182D249 Header_Shrouded_2_Pin P8 RELAY6
+  ( 1 /OUT6 )
+  ( 2 VAA )
+ )
+ ( /5182D24A Header_Shrouded_2_Pin P9 RELAY7
+  ( 1 /OUT7 )
+  ( 2 VAA )
+ )
+ ( /5254710F RJ45_2PORT_2ROW P10 RJ45_DOUBLE
+  ( 1 /MFC1TX )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 /MFC1RX )
+  ( 7 VAA )
+  ( 8 GND )
+  ( 9 /MFC2TX )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 GND )
+  ( 13 ? )
+  ( 14 /MFC2RX )
+  ( 15 VAA )
+  ( 16 GND )
+ )
+ ( /525436C3 BNC P11 BNC_A0
+  ( 1 /A0 )
+  ( 2 GND )
+ )
+ ( /525436C6 BNC P12 BNC_A1
+  ( 1 /A1 )
+  ( 2 GND )
+ )
+ ( /5187B477 SM1210 R1 1.96k
+  ( 1 VAA )
+  ( 2 N-000031 )
+ )
+ ( /52545481 DC_DC_CONV_R78C REG1 CONV_DC_DC
+  ( 1 VAA )
+  ( 2 GND )
+  ( 3 /VIN )
+ )
+ ( /5183C9EE RESISTOR_PACK RP1 R_PACK8_2.2k
+  ( 1 VAA )
+  ( 2 VAA )
+  ( 3 VAA )
+  ( 4 VAA )
+  ( 5 VAA )
+  ( 6 VAA )
+  ( 7 VAA )
+  ( 8 VAA )
+  ( 9 N-000008 )
+  ( 10 N-000117 )
+  ( 11 N-000004 )
+  ( 12 N-000014 )
+  ( 13 N-000001 )
+  ( 14 N-000015 )
+  ( 15 N-000002 )
+  ( 16 N-000013 )
+ )
+ ( /504F5474 ARDUINO_MEGA_SHIELD SHIELD1 ARDUINO_MEGA_SHIELD_FULL
+  ( 0 ? )
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 3V3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 5V_1 +5V )
+  ( 5V_4 ? )
+  ( 5V_5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 /TX3 )
+  ( 15 ? )
+  ( 16 /TX2 )
+  ( 17 /RX2 )
+  ( 18 /TX1 )
+  ( 19 /RX1 )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 ? )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+  ( 45 ? )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 /IN )
+  ( 49 /CS )
+  ( 50 /MISO )
+  ( 51 /MOSI )
+  ( 52 /SCK )
+  ( 53 ? )
+  ( A0 /A0 )
+  ( A1 /A1 )
+  ( A2 /A2 )
+  ( A3 /A3 )
+  ( A4 ? )
+  ( A5 ? )
+  ( A6 ? )
+  ( A7 ? )
+  ( A8 ? )
+  ( A9 ? )
+  ( A10 ? )
+  ( A11 ? )
+  ( A12 ? )
+  ( A13 ? )
+  ( A14 ? )
+  ( A15 ? )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 GND )
+  ( GND3 ? )
+  ( GND4 ? )
+  ( GND5 ? )
+  ( IREF ? )
+  ( NC ? )
+  ( RST /RST )
+  ( V_IN /VIN )
+ )
+ ( /5254362E TLE723X U1 TLE723X
+  ( 1 /CS )
+  ( 2 /IN )
+  ( 3 /OUT2 )
+  ( 4 /OUT3 )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 /OUT4 )
+  ( 10 /OUT5 )
+  ( 11 +5V )
+  ( 12 /MISO )
+  ( 13 /SCK )
+  ( 14 /MOSI )
+  ( 15 /OUT6 )
+  ( 16 /OUT7 )
+  ( 17 GND )
+  ( 18 GND )
+  ( 19 GND )
+  ( 20 GND )
+  ( 21 /OUT0 )
+  ( 22 /OUT1 )
+  ( 23 +5V )
+  ( 24 /RST )
+ )
+ ( /5254403C MAX232 U2 MAX232
+  ( 1 N-000105 )
+  ( 2 N-000023 )
+  ( 3 N-000024 )
+  ( 4 N-000025 )
+  ( 5 N-000114 )
+  ( 6 N-000119 )
+  ( 7 /MFC2RX )
+  ( 8 /MFC2TX )
+  ( 9 /RX2 )
+  ( 10 /TX2 )
+  ( 11 /TX1 )
+  ( 12 /RX1 )
+  ( 13 /MFC1TX )
+  ( 14 /MFC1RX )
+  ( 15 GND )
+  ( 16 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component D15
+ D?
+ S*
+$endlist
+$component D16
+ D?
+ S*
+$endlist
+$component D17
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arduino Relay Mfc Controller</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="static/jquery-ui-1.10.4.custom.min.css?v=1" type="text/css" />
+    <link rel="stylesheet" href="static/style.css?v=1" type="text/css" />
+    <script type="text/javascript" src="/static/js/jquery/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/sijax/sijax.js"></script>
+    <script type="text/javascript">
+      {{ g.sijax.get_js()|safe }}
+    </script>
+  </head>
+
+  <body>
+    <div class="center">
+      <h2>Set Relay On</h2>
+      <div id="setRelayOn">
+        <input type="radio" id="relay0" name="relay" value="0" /><label for="relay0">Relay 0</label>
+        <input type="radio" id="relay1" name="relay" value="1" /><label for="relay1">Relay 1</label>
+        <input type="radio" id="relay2" name="relay" value="2" /><label for="relay2">Relay 2</label>
+        <input type="radio" id="relay3" name="relay" value="3" /><label for="relay3">Relay 3</label>
+        <input type="radio" id="relay4" name="relay" value="4" /><label for="relay4">Relay 4</label>
+        <input type="radio" id="relay5" name="relay" value="5" /><label for="relay5">Relay 5</label>
+        <input type="radio" id="relay6" name="relay" value="6" /><label for="relay6">Relay 6</label>
+        <input type="radio" id="relay7" name="relay" value="7" /><label for="relay7">Relay 7</label>
+      </div>
+      <button class="button" id="setAllRelaysOff">Set All Relays Off</button>
+    </div>
+    <script type="text/javascript" src="/static/js/scripts/script.js"></script>
+  </body>
+</html>

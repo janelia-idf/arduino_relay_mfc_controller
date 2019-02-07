@@ -1,0 +1,3 @@
+#!python
+from arduino_relay_mfc_controller import arduinoRelayMfcControllerCli
+arduinoRelayMfcControllerCli()
